@@ -77,11 +77,11 @@ Pointiv is built for quick actions on the text or context already in front of yo
 
 Extensions are installed from GitHub. Each extension repo contains a `pointiv-extension.json` manifest and an artifact such as `extension.wasm`.
 
-Build one from the Rust template:
+Build one from an official starter:
 
 ```bash
-git clone https://github.com/katkodeorg/example_extension_rust.ptr
-cd example_extension_rust.ptr
+git clone https://github.com/katkodeorg/pointiv-extension-starter-rust.ptr
+cd pointiv-extension-starter-rust.ptr
 ./build.sh
 ```
 
@@ -94,15 +94,20 @@ https://github.com/<your-username>/<your-extension-repo>
 Resources:
 
 - [Extension developer guide](https://pointiv.katkode.com/developers)
-- [Rust/WASM template](https://github.com/katkodeorg/example_extension_rust.ptr)
-- [Rust SDK crate](https://crates.io/crates/pointiv-extension-api)
-- [SDK source](https://github.com/katkodeorg/pointiv-extension-api)
+- [Rust starter](https://github.com/katkodeorg/pointiv-extension-starter-rust.ptr)
+- [TypeScript starter](https://github.com/katkodeorg/pointiv-extension-starter-typescript.ptr)
+- [Python starter](https://github.com/katkodeorg/pointiv-extension-starter-python.ptr)
+- [Rust SDK crate](https://crates.io/crates/pointiv-extension-sdk)
+- [TypeScript SDK package](https://www.npmjs.com/package/@katkode/pointiv-extension-sdk)
+- [Python SDK package](https://pypi.org/project/pointiv-extension-sdk/)
+- [Rust SDK source](https://github.com/katkodeorg/pointiv-extension-sdk-rust)
+- [TypeScript SDK source](https://github.com/katkodeorg/pointiv-extension-sdk-typescript)
+- [Python SDK source](https://github.com/katkodeorg/pointiv-extension-sdk-python)
 
 Example manifest:
 
 ```json
 {
-  "id": "community.your-name.my-extension",
   "name": "My Extension",
   "description": "What it does",
   "version": "1.0.0",
@@ -143,8 +148,12 @@ Local files:
 
 - Website: [katkodeorg/pointiv-website](https://github.com/katkodeorg/pointiv-website)
 - Homebrew tap: [katkodeorg/homebrew-tap](https://github.com/katkodeorg/homebrew-tap)
-- Extension SDK: [katkodeorg/pointiv-extension-api](https://github.com/katkodeorg/pointiv-extension-api)
-- Extension template: [katkodeorg/example_extension_rust.ptr](https://github.com/katkodeorg/example_extension_rust.ptr)
+- Rust SDK: [katkodeorg/pointiv-extension-sdk-rust](https://github.com/katkodeorg/pointiv-extension-sdk-rust)
+- TypeScript SDK: [katkodeorg/pointiv-extension-sdk-typescript](https://github.com/katkodeorg/pointiv-extension-sdk-typescript)
+- Python SDK: [katkodeorg/pointiv-extension-sdk-python](https://github.com/katkodeorg/pointiv-extension-sdk-python)
+- Rust starter: [katkodeorg/pointiv-extension-starter-rust.ptr](https://github.com/katkodeorg/pointiv-extension-starter-rust.ptr)
+- TypeScript starter: [katkodeorg/pointiv-extension-starter-typescript.ptr](https://github.com/katkodeorg/pointiv-extension-starter-typescript.ptr)
+- Python starter: [katkodeorg/pointiv-extension-starter-python.ptr](https://github.com/katkodeorg/pointiv-extension-starter-python.ptr)
 
 ## Support and Contributing
 
